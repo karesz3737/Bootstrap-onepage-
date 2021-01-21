@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.0-beta1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-extension-5.0.0/css/bootstrap-extension-5.0.0-alpha1.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark py-0">
+      <div class="container-fluid contFluid">
+        <a class="navbar-brand bg-fresh text-white px-4 py-2">FORCE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bg-fresh"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active text-fresh onHover"
+              aria-current="page"
+              href="#"
+              >Kezdölap</a
+            >
+            <a class="nav-link text-white onHover" href="#">Termékek</a>
+            <a class="nav-link text-white onHover" href="#">Vásárlásról</a>
+            <a class="nav-link text-white onHover" href="#">Fizetési módok</a>
+            <a class="nav-link text-white onHover" href="#">Boltjaink</a>
+            <a class="nav-link text-white onHover" href="#">Kapcsolat</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark carousel-fade slide"
+      data-bs-ride="carousel"
+      data-bs-interval="5000"
+    >
+      <ol class="carousel-indicators carousel-indicators-circle white">
+        <li
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+        ></li>
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/header4.jpg" class="d-block" alt="Motoros" />
+          <div class="carousel-caption caption-block d-none d-md-block">
+            <h2 class="text-fresh display-5 text-uppercase">
+              üdvözöljük a force webshopban
+            </h2>
+            <p class="text-white fs-3">Minöségi termékek egy helyen</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/header2.jpg" class="d-block" alt="Motoros1" />
+          <div class="carousel-caption caption-block d-none d-md-block">
+            <h2 class="text-fresh display-5">Second slide label</h2>
+            <p class="text-white fs-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/header3.jpg" class="d-block" alt="Motoros2" />
+          <div class="carousel-caption caption-block d-none d-md-block">
+            <h2 class="text-fresh display-5">Third slide label</h2>
+            <p class="text-white fs-3">
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/header1.jpg" class="d-block" alt="Motoros3" />
+          <div class="carousel-caption caption-block d-none d-md-block">
+            <h2 class="text-fresh display-5">First slide label</h2>
+            <p class="text-white fs-3">
+              Nulla vitae elit libero, a pharetra augue mollis interdum.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleDark"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon text-light"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleDark"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+    <div>
+      <div class="container-fluid" id="cf">
+        <div class="textCont">
+          <h3 class="text-uppercase py-3">
+            <mark class="bg-fresh text-light">népszerü termékek</mark>
+          </h3>
+        </div>
+        <div class="row p-2">
+          <article class="col-12 col-md-4">
+            <img src="./img/1.jpg" />
+            <div class="abs">
+              <h3 class="text-white fs-5 ft text-uppercase">Gintino Magna</h3>
+              <h3 class="text-white fs-5 sc text-uppercase">102.00 FT</h3>
+            </div>
+          </article>
+          <article class="col-12 col-md-4">
+            <img src="./img/3.jpg" />
+            <div class="abs">
+              <h3 class="text-white fs-5 ft text-uppercase">Fuste Trotor</h3>
+              <h3 class="text-white fs-5 sc text-uppercase">137.00FT</h3>
+            </div>
+          </article>
+          <article class="col-12 col-md-4">
+            <img src="./img/5.jpg" />
+            <div class="abs">
+              <h3 class="text-white fs-5 ft text-uppercase">Gravida Foxcle</h3>
+              <h3 class="text-white fs-5 sc text-uppercase">94.00FT</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid sec-cont">
+      <div class="textCont">
+        <h3 class="text-uppercase py-3">
+          <mark class="bg-fresh text-light text-uppercase"
+            >Kiemelt ajánlatok</mark
+          >
+        </h3>
+      </div>
+      <div class="row p-2">
+        <article class="col-12 col-md-4">
+          <img src="./img/1.jpg" />
+          <div class="abs">
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light">Kerékpár</h3>
+            <h3 class="text-dark fs-5 sc text-uppercase">102.00 FT</h3>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <img src="./img/3.jpg" class="w-100" />
+          <div class="abs">
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light">Kerékpár</h3>
+            <h3 class="text-dark fs-5 sc text-uppercase">137.00FT</h3>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <img src="./img/12.jpg" />
+          <div class="abs">
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light">táska1</h3>
+            <h3 class="text-dark fs-5 sc text-uppercase">34.00FT</h3>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <img src="./img/13.jpg" />
+          <div class="abs">
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light">táska2</h3>
+            <h3 class="text-dark fs-5 sc text-uppercase">22.000FT</h3>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <img src="./img/9.jpg" />
+          <div class="abs">
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light">Kerékpár3</h3>
+            <h3 class="text-dark fs-5 sc text-uppercase">115.000FT</h3>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <img src="./img/8.jpg" />
+          <div class="abs">
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light">Kerékpár4</h3>
+            <h3 class="text-dark fs-5 sc text-uppercase">104.000FT</h3>
+          </div>
+        </article>
+      </div>
+    </div>
+    <section class="container-fluid p-0 parallax" data-img-src="./img/header1.jpg" data-speed="0.3">      
+    <div class="container py-6 text-dark">
+        <h2 class="display-4 text-center">Étlap</h2>
+       
+</div>
+    </section>
+    <div class="container-fluid sec-cont">
+        <div class="textCont">
+            <h3 class="text-uppercase py-3">
+              <mark class="bg-fresh text-light text-uppercase"
+                >új termékek</mark
+              >
+            </h3>
+    </div>
+    <script src="./bootstrap-5.0.0-beta1/js/bootstrap.min.js"></script>
+  </body>
+</html>
