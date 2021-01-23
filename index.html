@@ -12,7 +12,11 @@
       rel="stylesheet"
       href="./bootstrap-extension-5.0.0/css/bootstrap-extension-5.0.0-alpha1.min.css"
     />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/1edcc87e6a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -28,7 +32,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon bg-fresh"></span>
+          <span class="navbar-toggler-icon bg-fresh bd-button"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
@@ -77,7 +81,7 @@
           <img src="./img/header2.jpg" class="d-block" alt="Motoros1" />
           <div class="carousel-caption caption-block d-none d-md-block">
             <h2 class="text-fresh display-5">Second slide label</h2>
-            <p class="text-white fs-3">
+            <p class="text-white fs-3" id="tt">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
@@ -188,7 +192,9 @@
         <article class="col-12 col-md-4">
           <img src="./img/13.jpg" />
           <div class="abs">
-            <h3 class="text-dark fs-5 ft text-uppercase fw-light">táska2</h3>
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light tx-w">
+              táska2
+            </h3>
             <h3 class="text-dark fs-5 sc text-uppercase">22.000FT</h3>
           </div>
         </article>
@@ -208,20 +214,235 @@
         </article>
       </div>
     </div>
-    <section class="container-fluid p-0 parallax" data-img-src="./img/header1.jpg" data-speed="0.3">      
-    <div class="container py-6 text-dark">
-        <h2 class="display-4 text-center">Étlap</h2>
-       
-</div>
+    <section
+      class="container-fluid py-5 parallax d-none d-lg-block"
+      data-img-src="./img/header3.jpg"
+      data-speed="0.3"
+    >
+      <div class="container py-6 text-light">
+        <h2 class="display-4 text-center">Keresse Akciós termékeinket</h2>
+      </div>
     </section>
     <div class="container-fluid sec-cont">
-        <div class="textCont">
-            <h3 class="text-uppercase py-3">
-              <mark class="bg-fresh text-light text-uppercase"
-                >új termékek</mark
-              >
+      <div class="textCont mx-0">
+        <h3 class="text-uppercase py-3">
+          <mark class="bg-fresh text-light text-uppercase">új termékek</mark>
+        </h3>
+      </div>
+      <div class="row">
+        <article class="col-12 col-md-3">
+          <img src="./img/1.jpg" />
+          <div class="abs">
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light tx-w">
+              Kerékpár1
             </h3>
+            <h3 class="text-dark fs-5 sc text-uppercase">94.000FT</h3>
+          </div>
+        </article>
+        <article class="col-12 col-md-3">
+          <img src="./img/12.jpg" />
+          <div class="abs">
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light">táska1</h3>
+            <h3 class="text-dark fs-5 sc text-uppercase">34.000FT</h3>
+          </div>
+        </article>
+        <article class="col-12 col-md-3">
+          <img src="./img/3.jpg" />
+          <div class="abs">
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light">Kerékpár3</h3>
+            <h3 class="text-dark fs-5 sc text-uppercase">104.000FT</h3>
+          </div>
+        </article>
+        <article class="col-12 col-md-3">
+          <img src="./img/5.jpg" />
+          <div class="abs">
+            <h3 class="text-dark fs-5 ft text-uppercase fw-light">Kerékpár5</h3>
+            <h3 class="text-dark fs-5 sc text-uppercase">137.000FT</h3>
+          </div>
+        </article>
+      </div>
     </div>
+    <section class="container-fluid">
+      <div class="textCont mx-0 mt-5 mb-3">
+        <h3 class="text-uppercase py-3">
+          <mark class="bg-fresh text-light text-uppercase">országos túrák</mark>
+        </h3>
+      </div>
+      <div class="row">
+        <article class="col-12 col-md-4">
+          <h3 class="mx-0 text-fresh display-8 tx-w">Balaton Körüli túra</h3>
+          <img src="./img/thumb1.jpg" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+            enim fuga ipsam molestias amet cumque soluta cupiditate?
+            Perspiciatis qui accusamus odit facere at quisquam sapiente
+            inventore nam, amet pariatur quidem itaque blanditiis laboriosam
+            corporis.
+          </p>
+          <div
+            class="txt-con d-flex flex-row justify-content-center border border-fresh border-1 pt-2 mx-auto my-3 shadow mb-5 bg-white rounded"
+          >
+            <p class="text-fresh display-7 px-2">Részletek</p>
+            <span>
+              <a href="#" class="text-fresh cc">
+                <i class="fas fa-caret-right fa-3x"></i>
+              </a>
+            </span>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <div class="row">
+            <h3 class="mx-0 text-fresh display-8 tx-w">Budapest-Mátra-BP</h3>
+          </div>
+          <img src="./img/thumb2.jpg" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+            enim fuga ipsam molestias amet cumque soluta cupiditate?
+            Perspiciatis qui accusamus odit facere at quisquam sapiente
+            inventore nam, amet pariatur quidem itaque blanditiis laboriosam
+            corporis.
+          </p>
+          <div
+            class="txt-con d-flex flex-row justify-content-center border border-fresh border-1 pt-2 mx-auto my-3 shadow mb-5 bg-white rounded"
+          >
+            <p class="text-fresh display-7">Részletek</p>
+            <span>
+              <a href="#" class="text-fresh cc">
+                <i class="fas fa-caret-right fa-3x"></i>
+              </a>
+            </span>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <h3 class="mx-0 text-fresh display-8 tx-w">Duna-vonal túra</h3>
+          <img src="./img/thumb3.jpg" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+            enim fuga ipsam molestias amet cumque soluta cupiditate?
+            Perspiciatis qui accusamus odit facere at quisquam sapiente
+            inventore nam, amet pariatur quidem itaque blanditiis laboriosam
+            corporis.
+          </p>
+          <div
+            class="txt-con d-flex flex-row justify-content-center border border-fresh border-1 pt-2 mx-auto my-3 shadow mb-5 bg-white rounded"
+          >
+            <p class="text-fresh display-7 px-2">Részletek</p>
+            <span>
+              <a href="#" class="text-fresh cc">
+                <i class="fas fa-caret-right fa-3x"></i>
+              </a>
+            </span>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="container-fluid bg-dark">
+      <div
+        class="row d-flex flex-row justify-content-evenly align-items-center py-4"
+      >
+        <article class="col-12 col-md-3 pt-0 mt-0">
+          <h3 class="display-8 text-fresh text-uppercase fw-bolder">
+            információk
+          </h3>
+          <div class="border-bottom border-light border-1">
+            <p class="text-light text-uppercase fw-light pt-2 tx-hover">
+              rólunk
+            </p>
+          </div>
+          <div class="border-bottom border-light border-1">
+            <p class="text-light text-uppercase fw-light pt-2 tx-hover">
+              Kapcsolat
+            </p>
+          </div>
+          <div class="border-bottom border-light border-1">
+            <p class="text-light text-uppercase fw-light pt-2 tx-hover">blog</p>
+          </div>
+          <div class="border-bottom border-light border-1">
+            <p class="text-light text-uppercase pt-2 tx-hover">
+              felhasználói szabályzat
+            </p>
+          </div>
+          <div class="border-bottom border-light border-1">
+            <p class="text-light text-uppercase fw-light pt-2 tx-hover">
+              adatkezelési nyilatkozat
+            </p>
+          </div>
+        </article>
+        <article class="col-12 col-md-3 mb-md-5 mb-lg-0 pt-sm-3 pt-md-0">
+          <h3 class="display-8 text-fresh text-uppercase fw-bolder">
+            ha segitség kell
+          </h3>
+          <div class="border-bottom border-light border-1">
+            <p class="text-light text-uppercase fw-light pt-2 tx-hover">gyik</p>
+          </div>
+          <div class="border-bottom border-light border-1">
+            <p class="text-light text-uppercase fw-light pt-2 tx-hover">
+              élö chat
+            </p>
+          </div>
+          <div class="border-bottom border-light border-1">
+            <p class="text-light text-uppercase fw-light pt-2 tx-hover">
+              visszahivást kérek
+            </p>
+          </div>
+          <div class="border-bottom border-light border-1">
+            <p class="text-light text-uppercase pt-2 tx-hover">elérhetöségek</p>
+          </div>
+          <div class="border-bottom border-light border-1">
+            <p class="text-light text-uppercase fw-light pt-2 tx-hover">
+              honlap térkép
+            </p>
+          </div>
+        </article>
+        <article class="col-12 col-md-3 mb-6 mt-sm-4 mt-md-0 pb-md-4">
+          <h3 class="display-8 text-fresh text-uppercase pt-0 fw-bolder">
+            termékfelhö
+          </h3>
+          <div class="con-wrapper">
+            <div class="item text-light">
+              <a href="#">Kerékpár</a>
+            </div>
+            <div class="item text-light"><a href="#">Táska</a></div>
+            <div class="item text-light"><a href="#">Hátizsák</a></div>
+            <div class="item text-light"><a href="#">Sport</a></div>
+            <div class="item text-light"><a href="#">Nike</a></div>
+            <div class="item text-light"><a href="#">Denim</a></div>
+            <div class="item text-light"><a href="#">Rucanor</a></div>
+          </div>
+        </article>
+        <article class="col-12 col-md-3 py-0 mb-3 mb-md-0">
+          <h3 class="display-8 text-fresh text-uppercase pt-2 mt-2 fw-bolder">
+            hirlevél
+          </h3>
+          <div>
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text" id="addon-wrapping">@</span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="E-mail cím"
+                aria-label="Username"
+                aria-describedby="addon-wrapping"
+              />
+            </div>
+            <button type="button" class="btn bg-fresh text-light my-3">
+              Feliratkozás
+            </button>
+          </div>
+          <div class="row col-12">
+            <p class="text-light pb-2">
+              Feliratkozásával értesülhet legfrisebb híreinkröl.Soha nem küldünk
+              önek spam levelet.
+            </p>
+          </div>
+          <div>
+            <p class="text-light my-0">Fizetési lehetöségek:</p>
+            <img src="./img/fizmodok.png" class="my-3" />
+          </div>
+        </article>
+      </div>
+    </section>
     <script src="./bootstrap-5.0.0-beta1/js/bootstrap.min.js"></script>
+    <script src="bootstrap-extension-5.0.0/js/bootstrap-extension-5.0.0-alpha1.base64.js"></script>
   </body>
 </html>
